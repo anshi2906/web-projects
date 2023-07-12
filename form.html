@@ -1,0 +1,52 @@
+<!-- saved from url=(0095)file:///C:/Users/HP/Desktop/anshi.html?firstname=&lastname=&hobby=on&hobby=on&hobby=on&newfile= -->
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+  <title>form</title>
+  <script type="text/javascript">
+    function fun() {
+      alert("hii anshi");
+    }
+  </script>
+</head>
+
+<body>
+  <h2 style="color:blue"><u>Registration Form</u></h2>
+  <form style="background-color:lightblue">
+    <fieldset>
+      <legend>User Information:</legend>
+      <div> Enter your name:
+        <label for="firstname" first="" name: label=""><br>
+          First name:<input style="text" id="firstname" name="firstname">
+          <label for="lastname" last="" name: label="">
+            Last name:<input style="text" pd="lastname" name="lastname">
+          </label></label>
+      </div><br>
+      <div> Enter your address:
+        <textarea rows="2" cols="20"></textarea>
+      </div>
+      <div>
+        <label for="email" email: label=""><br>
+          Email:<input style="email" id="email"></label>
+      </div><br>
+      <div>Gender:
+        <input type="radio" name="gender">Male
+        <input type="radio" name="gender">Female
+        <input type="radio" name="gender">Other
+      </div><br>
+      <div>Hobbies:
+        <input type="checkbox" name="hobby">Gardening<br>
+        <input type="checkbox" name="hobby">Reading<br>
+        <input type="checkbox" nmae="hobby">Music<br>
+        <input type="checkbox" name="hobby">Dancing<br>
+      </div><br>
+      <div>
+        Your picture:<br>
+        <input type="file" name="newfile">
+      </div>
+      <input type="submit" value="sign-up" onclick="fun();">
+    </fieldset>
+  </form>
+
+</body>
+</html>
